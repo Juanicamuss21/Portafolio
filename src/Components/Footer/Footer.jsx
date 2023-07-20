@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 const Footer = () => {
   return (
     <footer>
-      <a href="logo" className="footer__logo">JUANI CAMUS</a>
+      {/* <a href="logo" className="footer__logo">JUANI CAMUS</a> */}
 
       <ul className="permalinks">
         <Link to='home'>
@@ -24,11 +24,11 @@ const Footer = () => {
         <li><a href="services">Services</a></li>
         </Link>
         <Link to='portfolio'>
-        <li><a href="portfolio">Portfolio</a></li>
+        <li><a href="portfolio">Projects</a></li>
         </Link>
-        <Link to='testimonials'>
+        {/* <Link to='testimonials'>
         <li><a href="testimonials">Testimonials</a></li>
-        </Link>
+        </Link> */}
         <Link to='contact'>
         <li><a href="contact">Contact</a></li>
         </Link>
@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
       
       <div className="footer__copyright">
-        <small>&copy; Juani Tutorials. All rights reserved</small>
+        <small>&copy; Juan Ignacio Camus - Portafolio</small>
       </div>
 
     </footer>

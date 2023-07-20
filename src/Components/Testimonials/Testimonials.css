@@ -1,4 +1,4 @@
-.container.testimonials__container{   
+/* .container.testimonials__container{   
     width: 40%;
 }
 
@@ -35,7 +35,7 @@
 
 /* Media queries (medium devices)  */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .container.testimonials__container{
         width: 60%;
     }
@@ -43,7 +43,7 @@
 
 /* Media queries (small devices)  */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .container.testimonials__container{
     width: var(--container-width-sm);
   }
@@ -51,4 +51,4 @@
   .client__review{
     width: var(--container-width-sm);
   }
-}
+}   */

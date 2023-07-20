@@ -52,11 +52,13 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    font-size: 1rem;
+
 }
 
-textarea::placeholder{
+/* textarea::placeholder{
     font-size: 1rem;
-}
+} */
 
 input:hover, textarea:hover{
    border-color: var(--color-bg-variant);

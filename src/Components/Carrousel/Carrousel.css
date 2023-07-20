@@ -1,0 +1,80 @@
+.proyect-img-modal {
+    width: 90%;
+    height: 90%;
+    margin: 2rem auto 1rem auto;
+    border-radius: 10px;
+    box-shadow: 6px 2px 16px 0px rgba(0, 0, 0, 0.48), -6px -2px 16px 0px rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    /* position: relative; */
+}
+
+.proyect-img-modal-div{
+    position: relative;
+} 
+
+/* .button-div{
+
+} */
+
+.btn-previous {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.2rem;
+
+    font-size: 30px;
+    cursor: pointer;
+    color: #0079FF;
+    background: transparent;
+}
+
+.btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1.2rem;
+
+    font-size: 30px;
+    cursor: pointer;
+    color: #0079FF;
+    background: transparent;
+}
+
+.btn-previous:hover{
+    color: #888;
+}
+
+.btn-next:hover{
+    color: #888;
+}
+
+/* Media queries (medium devices)  */
+
+@media screen and (max-width: 1024px) {
+    .btn-previous {      
+        left: 5px;  
+        font-size: 25px;  
+    }
+    
+    .btn-next {
+        right: 5px;
+        font-size: 25px;
+    }
+  }
+  
+  /* Media queries (small devices)  */
+  
+  @media screen and (max-width: 600px) {
+    .btn-previous {      
+        left: 1px;  
+        font-size: 15px;  
+    }
+    
+    .btn-next {
+        right: 1px;
+        font-size: 15px;
+    }
+    .btn-carousel {
+        font-size: 20px;      
+    }
+  }
