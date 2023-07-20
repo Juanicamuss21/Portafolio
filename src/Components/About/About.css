@@ -2,14 +2,10 @@
     display: grid;
     grid-template-columns: 50%;
     gap: 15%;
-
     justify-content: center;
-
-    /* outline: 3px solid red; */
 }
 
 .about__me{
-    /* height: 300px; */
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
