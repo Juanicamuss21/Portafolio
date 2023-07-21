@@ -1,8 +1,6 @@
 header{
     height: 100vh;
-    /* height: 670px; */
     margin-top: 1rem;
-    /* overflow: hidden; */
 }
 
 .header_container{
@@ -78,9 +76,9 @@ header{
 /* Media queries (medium devices)  */
 
 @media screen and (max-width: 1024px) {
-    header{
-        /* height: 68vh; */
-    }
+    /* header{
+        height: 68vh;
+    } */
 }
 
 /* Media queries (small devices)  */
