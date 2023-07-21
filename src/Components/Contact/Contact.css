@@ -56,10 +56,6 @@ input, textarea{
 
 }
 
-/* textarea::placeholder{
-    font-size: 1rem;
-} */
-
 input:hover, textarea:hover{
    border-color: var(--color-bg-variant);
 }
