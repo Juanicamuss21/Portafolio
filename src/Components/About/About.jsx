@@ -3,7 +3,7 @@ import "./About.css"
 import {FaAward} from "react-icons/fa"
 // import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
-import imgJuani from "../../assets/img-juani-sinfondo.png"
+// import imgJuani from "../../assets/img-juani-sinfondo.png"
 
 const About = () => {
   return (
