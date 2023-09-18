@@ -5,7 +5,6 @@ import {FaArrowCircleLeft, FaArrowCircleRight} from "react-icons/fa"
 export default function Carousel(props) {
     const images = props.images;
 
-
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [selectedImage, setSelectedImage] = useState(images[0]);
 

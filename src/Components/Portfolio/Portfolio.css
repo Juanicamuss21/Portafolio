@@ -22,13 +22,13 @@
 .portfolio__items-image{
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 12rem;
+    height: 12rem;  
+    /* outline: 3px solid red; */
 }
 
 .portfolio__items-image img{
     height: 100%;
-    /* object-fit: unset; */
-    object-fit: inherit;
+    object-fit: initial;  
 }
 
 .portfolio__items h3{
@@ -61,5 +61,9 @@
     .portfolio__container{
         grid-template-columns: 1fr;       
         width: 80%;
+    }
+
+    .portfolio__items-image img{
+        object-fit: inherit;
     }
 }

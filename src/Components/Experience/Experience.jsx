@@ -37,6 +37,13 @@ const Experience = () => {
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
             <div>
+            <h4>Typescript</h4>
+            {/* <small className='text-light'>Experienced</small> */}
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
             <h4>React</h4>
             {/* <small className='text-light'>basic</small> */}
             </div>
@@ -51,14 +58,7 @@ const Experience = () => {
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
             <div>
-            <h4>Tailwind</h4>
-            {/* <small className='text-light'>Experienced</small> */}
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsPatchCheckFill className='experience__details-icon'/>
-            <div>
-            <h4>Boostrap</h4>
+            <h4>Tailwind CSS</h4>
             {/* <small className='text-light'>Experienced</small> */}
             </div>
           </article>
@@ -85,14 +85,21 @@ const Experience = () => {
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
             <div>
-            <h4>Express</h4>
+            <h4>ExpressJS</h4>
             {/* <small className='text-light'>Experienced</small> */}
             </div>
           </article>
           <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
             <div>
-            <h4>SQL</h4>
+            <h4>PostgreSQL</h4>
+            {/* <small className='text-light'>Experienced</small> */}
+            </div>
+          </article>
+          <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+            <div>
+            <h4>Sequelize</h4>
             {/* <small className='text-light'>Experienced</small> */}
             </div>
           </article>

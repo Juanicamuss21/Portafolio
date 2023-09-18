@@ -41,7 +41,7 @@ const About = () => {
             </article>
           </div>
         
-        
+      
         <p>¡Bienvenidos a mi portafolio web! Mi objetivo es mostrarle una variedad de trabajos que he realizado como desarrollador web, así como información sobre mí. Mis habilidades incluyen diseño y desarrollo de sitios web, integración de API y optimización de motores de búsqueda. Espero que este portafolio lo ayude a comprender la amplia gama de servicios que ofrezco como desarrollador web y le brinde la confianza para contactarme para sus futuros proyectos. ¡Gracias por la visita!.        
         </p>
             

@@ -53,7 +53,6 @@ import DetailCourse from "../../assets/proyectos/CoursesApp-img/img6.png"
 import ListCourses from "../../assets/proyectos/CoursesApp-img/img7.png"
 import menuCourses from "../../assets/proyectos/CoursesApp-img/img8.png"
 import FormCourses from "../../assets/proyectos/CoursesApp-img/img9.png"
-import FormCourses2 from "../../assets/proyectos/CoursesApp-img/img10.png"
 
 // Imagenes Primer Proyecto con NextJS 13
 import HomeNext from "../../assets/proyectos/Next JS-Img/img1.png"
@@ -72,7 +71,7 @@ const imagenesPortafolio = [HeaderImg, AboutImg, ExperiencesImg, WorksImg, Conta
 
 const imagenesNextJS = [HomeNext, HomeNext2, AboutNext, ServicesNext]
 
-const imagenesCoursesApp = [LandingCourses, LandingCourses2, HomeCourses, HomeCourses2, SearchCourse, DetailCourse, ListCourses, menuCourses, FormCourses, FormCourses2]
+const imagenesCoursesApp = [LandingCourses, LandingCourses2, HomeCourses, HomeCourses2, SearchCourse, DetailCourse, ListCourses, menuCourses, FormCourses]
 
 
 const Portfolio = () => {
@@ -111,14 +110,14 @@ const Portfolio = () => {
 
           <ModalImg openModal={openModalPiPok} setOpenModal={setOpenModalPiPok}>
                 <Carrousel images={imagenesIndPok}/>
-          </ModalImg>
+          </ModalImg> 
 
           <Modal openModal={openModal1} setOpenModal={setOpenModal1}>
                 <h1>
                     Pokémons App
                 </h1>
                 <p>
-                    Éste proyecto fue realizado de manera individual. Se desarrolló desde cero, tanto en el front end, back end y base de datos. Se utilizaron las tecnologias de React, Redux, HTML, CSS, NodeJS, ExpressJS, Sequelize y Postgres SQL. Consiste en una App donde puedes encontrar información de diferentes Pokémons, filtrarlos y ordernalos en base a su información. También cuenta con un formulario donde puedes crear tu propio Pokémon!.
+                    Éste proyecto fue realizado de manera individual. Se desarrolló desde cero, tanto en el front end, back end y base de datos. Se utilizaron herramientas y tecnologias como HTML, CSS, Javascript, React, Redux, NodeJS, ExpressJS, Sequelize y PostgreSQL. Consiste en una App donde puedes encontrar información de diferentes Pokémons, filtrarlos y ordernalos en base a su información. También cuenta con un formulario donde puedes crear tu propio Pokémon!.
                 </p>
           </Modal>
 
@@ -127,7 +126,7 @@ const Portfolio = () => {
             <img src={imagenesIndVid[0]} alt="" onClick={()=>setOpenModalPiVid(true)}/>
           </div>
           <h3>Proyecto Videogames</h3>
-          <div className="portfolio__items-cta">
+          <div className="portfolio__items-cta"> 
           <button className="btn btn-second" onClick={()=>setOpenModal2(true)}>Descripción</button>
           <a href="https://github.com/Juanicamuss21/PI-Videogames" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
           </div>
@@ -142,7 +141,7 @@ const Portfolio = () => {
                     Videogames App
                 </h1>
                 <p>
-                Éste proyecto fue realizado de manera individual. Se desarrolló desde cero, tanto en el front end, back end y base de datos. Se utilizaron las tecnologias de React, Redux, HTML, CSS, NodeJS, ExpressJS, Sequelize y Postgres SQL. Consiste en una App donde puedes encontrar información acerca de los videojuegos más populares del mercado, filtrarlos y ordernalos en base a su información. También cuenta con un formulario donde puedes crear tu propio Videojuego junto a su respectiva información.
+                Éste proyecto fue realizado de manera individual. Se desarrolló desde cero, tanto en el front end, back end y base de datos. Se utilizaron herramientas y tecnologias como HTML, CSS, Javascript, React, Redux, NodeJS, ExpressJS, Sequelize y PostgreSQL. Consiste en una App donde puedes encontrar información acerca de los videojuegos más populares del mercado, filtrarlos y ordernalos en base a su información. También cuenta con un formulario donde puedes crear tu propio Videojuego junto a su respectiva información.
                 </p>
           </Modal>
 
@@ -165,7 +164,8 @@ const Portfolio = () => {
                 <h1>
                     Componentes Gaming App
                 </h1>
-                <p>Éste proyecto fue realizado de manera grupal. El proyecto está basado en una plataforma para la realización de compras, y posteos de los diferentes componentes. En la plataforma encontraras opciones como filtrado de componentes gaming, una sección de favoritos, formulario loguin, detalle del producto, panel de control para el administrador, sección checkout, información sobre desarrolladores, preguntas frecuentes y sus respuestas.Se utilizaron las tecnologias de React, Redux, HTML, CSS, NodeJS, ExpressJS, MongoDB Atlas.<br/>
+                <p>
+                  Éste proyecto fue realizado de manera grupal. El proyecto está basado en una plataforma para la realización de compras, y posteos de los diferentes componentes. En la plataforma encontraras opciones como filtrado de componentes gaming, una sección de favoritos, formulario login, detalle del producto, panel de control para el administrador, sección checkout, información sobre desarrolladores, preguntas frecuentes y sus respuestas. Se utilizaron herramientas y tecnologias como  HTML, CSS, React, Redux, NodeJS, ExpressJS, MongoDB Atlas.<br/>
                   <a href="https://dreams-factory-pf.vercel.app/" target="_blank" rel="noreferrer">https://dreams-factory-pf.vercel.app/</a>
                 </p>
             </Modal>
@@ -189,7 +189,8 @@ const Portfolio = () => {
                 <h1>
                     Portafolio en Inglés
                 </h1>
-                <p>Proyecto realizado para contar con un portafolio en el lenguaje inglés, realizado desde cero con HTML, Javascript, React, NodeJS, TailwindCSS.
+                <p>
+                  Proyecto realizado para contar con un portafolio en el lenguaje inglés, realizado con HTML, TailwindCSS, Javascript, React, NodeJS.
                 </p>
             </Modal>
 
@@ -197,7 +198,7 @@ const Portfolio = () => {
           <div className="portfolio__items-image">
             <img src={imagenesCoursesApp[0]} alt="" onClick={()=>setOpenModalCourses(true)}/>
           </div>
-          <h3>Proyecto Courses-App</h3>
+          <h3>Proyecto Courses App</h3>
           <div className="portfolio__items-cta">
           <button className="btn btn-second" onClick={()=>setOpenModal5(true)}>Descripción</button>
           <a href="https://github.com/Juanicamuss21/Courses-App" className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
@@ -212,8 +213,9 @@ const Portfolio = () => {
                 <h1>
                     Courses App
                 </h1>
-                <p>Éste proyecto fue realizado con el proposito de organizar los cursos y facilitar al usuario el aprendizaje de desarrollado web. <br/>
-                Fué realizado de igual manera con HTML, CSS, Javascript, React, Redux, NodeJS, ExpressJS,PostgreSQL, Sequelize.
+                <p>
+                  Éste proyecto fue realizado con el proposito de organizar los cursos y facilitar al usuario el aprendizaje de desarrollado web. <br/>
+                  Fué desarrollado con las herramientas y tecnologias como HTML, CSS, Javascript, React, Redux, NodeJS, ExpressJS, PostgreSQL, Sequelize.
                 </p>
             </Modal>
 
@@ -236,7 +238,8 @@ const Portfolio = () => {
                 <h1>
                     Proyecto con NextJS 13
                 </h1>
-                <p>Éste proyecto fue realizado para practicar la implementacion de la nueva versión de NextJS.<br/>
+                <p>
+                  Éste proyecto fue realizado para practicar la implementacion de la nueva versión de NextJS.<br/>
                   <a href="https://nextjs-firstproject-sepia.vercel.app/" target="_blank" rel="noreferrer">https://nextjs-firstproject-sepia.vercel.app/</a>
                 </p>
             </Modal>
