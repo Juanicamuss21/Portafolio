@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Services.css"
-import {BiCheck} from "react-icons/bi"
+import './Services.css'
+import { BiCheck } from 'react-icons/bi'
 
 const Services = () => {
   return (
@@ -77,7 +77,7 @@ const Services = () => {
             <BiCheck className='service__list-icon'/>
           <p>Lenguajes: Español. <br/> Ingles (Intermedio).</p>
           </li>
-        
+
          </ul>
         </article>
         {/* End Of Web Development */}
@@ -117,7 +117,7 @@ const Services = () => {
             <BiCheck className='service__list-icon'/>
           <p>Dedicación.</p>
           </li>
-          
+
          </ul>
         </article>
         {/* End Of Content Creation */}

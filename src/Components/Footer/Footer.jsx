@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Footer.css"
-import {BsLinkedin} from "react-icons/bs"
-import {FaGithub} from "react-icons/fa"
-import {SiGmail} from "react-icons/si"
+import './Footer.css'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
 import { Link } from 'react-scroll'
 
 const Footer = () => {
@@ -15,10 +15,10 @@ const Footer = () => {
         <li><a href="home">Home</a></li>
         </Link>
         <Link to='about'>
-        <li><a href="about">About</a></li>     
-        </Link> 
-        <Link to='experience'>           
-        <li><a href="experience">Experience</a></li>  
+        <li><a href="about">About</a></li>
+        </Link>
+        <Link to='experience'>
+        <li><a href="experience">Experience</a></li>
         </Link>
         <Link to='services'>
         <li><a href="services">Services</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
       <a href="https://github.com/Juanicamuss21" target="_blank" rel='noreferrer'><FaGithub/></a>
       <a href="mailto:juanicamuss15@gmail.com" target="_blank" rel='noreferrer'><SiGmail/></a>
       </div>
-      
+
       <div className="footer__copyright">
         <small>&copy; Juan Ignacio Camus - Portafolio</small>
       </div>

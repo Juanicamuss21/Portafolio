@@ -1,28 +1,26 @@
-import React from 'react'
-import "./Contact.css"
-import {SiGmail} from "react-icons/si"
-import {RiMessengerLine} from "react-icons/ri"
-import {BsWhatsapp} from "react-icons/bs"
-import { useRef } from 'react'
-import emailjs from "emailjs-com"
-import { toast,Toaster } from 'react-hot-toast'
+import React, { useRef } from 'react'
+import './Contact.css'
+import { SiGmail } from 'react-icons/si'
+import { RiMessengerLine } from 'react-icons/ri'
+import { BsWhatsapp } from 'react-icons/bs'
+import emailjs from 'emailjs-com'
+import { toast, Toaster } from 'react-hot-toast'
 
 const Contact = () => {
-
-  const form = useRef();
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs.sendForm('service_vumsxww', 'template_o6zq5pf', form.current, '4U9cfwaK154485vNs')
       .then((result) => {
-        toast.success("Mensaje enviado");
+        toast.success('Mensaje enviado')
       }, (error) => {
-          toast.error(error.text);
-      });
+        toast.error(error.text)
+      })
 
-      e.target.reset()
-  };
+    e.target.reset()
+  }
 
   return (
     <section id='contact'>
@@ -46,10 +44,10 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5 className='text-light'>+54 9 3854353077</h5>
-            <a href="https://api.whatsapp.com/send?phone=+5493854353077&text=Hola!" target="_blank" rel='noreferrer'>Enviar Mensaje</a> 
+            <a href="https://api.whatsapp.com/send?phone=+5493854353077&text=Hola!" target="_blank" rel='noreferrer'>Enviar Mensaje</a>
           </article>
-        </div> 
-        {/* END OF CONTACT OPTIONS*/}
+        </div>
+        { /* END OF CONTACT OPTIONS */ }
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Nombre y Apellido' required />
           <input type="email" name='email' placeholder='Email' required />
@@ -61,13 +59,13 @@ const Contact = () => {
                 position='bottom-right'
                 reverseOrder={true}
                 toastOptions={{
-                  className: "",
+                  className: '',
                   duration: 3000,
                   style: {
-                    background: "#363636",
-                    color: "white",
-                    fontSize: "15px"
-                  },
+                    background: '#363636',
+                    color: 'white',
+                    fontSize: '15px'
+                  }
                 }}
               />
     </section>

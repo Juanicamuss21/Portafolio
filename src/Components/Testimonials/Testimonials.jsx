@@ -15,7 +15,6 @@
 // import 'swiper/css/pagination';
 // import 'swiper/css/navigation';
 
-
 // const Testimonials = () => {
 //   return (
 //     <section id='testimonials'>
@@ -67,7 +66,6 @@
 //               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla exercitationem magnam perspiciatis aliquam error quo adipisci quidem, sint necessitatibus animi modi deserunt libero est eius a itaque id aspernatur sit?
 //             </small>
 //         </SwiperSlide>
-
 
 //       </Swiper>
 //     </section>

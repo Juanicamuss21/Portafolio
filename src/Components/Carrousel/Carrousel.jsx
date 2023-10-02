@@ -1,40 +1,40 @@
-import React, { useState } from "react";
-import "./Carrousel.css";
-import {FaArrowCircleLeft, FaArrowCircleRight} from "react-icons/fa"
+import React, { useState } from 'react'
+import './Carrousel.css'
+import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa'
 
-export default function Carousel(props) {
-    const images = props.images;
+export default function Carousel (props) {
+  const images = props.images
 
-    const [selectedIndex, setSelectedIndex] = useState(0);
-    const [selectedImage, setSelectedImage] = useState(images[0]);
+  const [selectedIndex, setSelectedIndex] = useState(0)
+  const [selectedImage, setSelectedImage] = useState(images[0])
 
-    const selectNewImage = (index, images, next = true) => {
-      
+  const selectNewImage = (index, images, next = true) => {
     const condition = next
       ? selectedIndex < props.images.length - 1
-      : selectedIndex > 0;
+      : selectedIndex > 0
     const nextIndex = next
       ? condition
         ? selectedIndex + 1
         : 0
       : condition
-      ? selectedIndex - 1
-      : images.length - 1;
-    setSelectedImage(images[nextIndex]);
-    setSelectedIndex(nextIndex);
-  };
+        ? selectedIndex - 1
+        : images.length - 1
+    setSelectedImage(images[nextIndex])
+    setSelectedIndex(nextIndex)
+  }
 
-    const previous = () => {
-        selectNewImage(selectedIndex, images, false);
-    };
+  const previous = () => {
+    selectNewImage(selectedIndex, images, false)
+  }
 
-    const next = () => {
-        selectNewImage(selectedIndex, images);
-    };
+  const next = () => {
+    selectNewImage(selectedIndex, images)
+  }
 
   return (
     <div>
-      {images.length >= 1 ? (
+      {images.length >= 1
+        ? (
         <div className="proyect-img-modal-div">
           <img
             src={selectedImage}
@@ -49,14 +49,14 @@ export default function Carousel(props) {
             <FaArrowCircleRight/>
             </button>
           </div>
-        </div>
-      ) : (
+        </div>)
+        : (
         <img
           src={images[0]}
           className="proyect-img-modal"
           alt={`imagen ${images[0]}`}
         />
-      )}
+          )}
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Experience.css"
-import {BsPatchCheckFill} from "react-icons/bs"
+import './Experience.css'
+import { BsPatchCheckFill } from 'react-icons/bs'
 
 const Experience = () => {
   return (
@@ -103,7 +103,7 @@ const Experience = () => {
             {/* <small className='text-light'>Experienced</small> */}
             </div>
           </article>
-          
+
           </div>
           </div>
       </div>

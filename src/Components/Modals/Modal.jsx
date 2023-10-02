@@ -1,12 +1,12 @@
-import React from "react";
-import "./Modal.css";
-import { AiOutlineClose } from "react-icons/ai";
+import React from 'react'
+import './Modal.css'
+import { AiOutlineClose } from 'react-icons/ai'
 
-const Modal = ({children, openModal, setOpenModal}) => {
-    const handleModalContainerClick = (e) => e.stopPropagation();
+const Modal = ({ children, openModal, setOpenModal }) => {
+  const handleModalContainerClick = (e) => e.stopPropagation()
 
-    return (
-        <div className={!openModal? "modal" :"modal is-open"} onClick={()=>setOpenModal(false)}>
+  return (
+        <div className={!openModal ? 'modal' : 'modal is-open'} onClick={() => setOpenModal(false)}>
             <div className="modal-container" onClick={handleModalContainerClick}>
                 <button className="modal-close" onClick={() => setOpenModal(false)}>
                     <AiOutlineClose type="solid" color="white"/>
@@ -14,7 +14,7 @@ const Modal = ({children, openModal, setOpenModal}) => {
                 {children}
             </div>
         </div>
-    )
+  )
 }
 
-export default Modal;
+export default Modal
