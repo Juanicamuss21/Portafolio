@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
         { /* END OF CONTACT OPTIONS */ }
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Nombre y Apellido' required />
+          <input type="text" name='from_name' placeholder='Nombre y Apellido' required />
           <input type="email" name='email' placeholder='Email' required />
           <textarea name="message" rows="7" placeholder='Su Mensaje...' required></textarea>
           <button type='submit' className='btn btn-primary'>Enviar</button>
