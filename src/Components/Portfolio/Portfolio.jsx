@@ -200,7 +200,8 @@ const Portfolio = () => {
                     Portafolio en Inglés
                 </h1>
                 <p>
-                  Proyecto realizado para contar con un portafolio en el lenguaje inglés, realizado con HTML, TailwindCSS, Javascript, React, NodeJS.
+                  Proyecto realizado para contar con un portafolio en el lenguaje inglés, realizado con HTML, TailwindCSS, Javascript, React, NodeJS. <br/>
+                  <a href="https://portafolio-ingles.vercel.app/" target="_blank" rel="noreferrer">https://portafolio-ingles.vercel.app/</a>
                 </p>
             </Modal>
 
