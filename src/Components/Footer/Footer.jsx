@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/juan-ignacio-camus-703102251/" target="_blank" rel='noreferrer'><BsLinkedin/></a>
       <a href="https://github.com/Juanicamuss21" target="_blank" rel='noreferrer'><FaGithub/></a>
-      <a href="mailto:juanicamuss15@gmail.com" target="_blank" rel='noreferrer'><SiGmail/></a>
+      <a href="mailto:programmingstudio2024@gmail.com" target="_blank" rel='noreferrer'><SiGmail/></a>
       </div>
 
       <div className="footer__copyright">

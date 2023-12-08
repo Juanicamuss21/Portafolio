@@ -6,8 +6,8 @@ import { VscFolderLibrary } from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>About Me</h5>
-      <h2>Sobre Mí</h2>
+      <h5>About Us</h5>
+      <h2>Sobre Nosotros</h2>
 
       <div className="container about__container">
 
@@ -33,7 +33,7 @@ const About = () => {
             </article>
           </div>
 
-        <p>¡Bienvenidos a mi portafolio web! Mi objetivo es mostrarle una variedad de trabajos que he realizado como desarrollador web, así como información sobre mí. Mis habilidades incluyen diseño y desarrollo de sitios web, integración de API y optimización de motores de búsqueda. Espero que este portafolio lo ayude a comprender la amplia gama de servicios que ofrezco como desarrollador web y le brinde la confianza para contactarme para sus futuros proyectos. ¡Gracias por la visita!.
+        <p>¡Bienvenidos! Nuestro objetivo es mostrarle una variedad de trabajos que realizamos como desarrollador web, así como información sobre nosotros. Nuestras habilidades incluyen diseño y desarrollo de sitios web, integración de API y optimización de motores de búsqueda. Espero que este sitio web lo ayude a comprender la amplia gama de servicios que ofrecemos como desarrollador web y le brinde la confianza para contactarnos para sus futuros proyectos. ¡Gracias por la visita!.
         </p>
 
        <a href="#contact" className='btn btn-primary'>Contacto</a>

@@ -37,11 +37,11 @@ import DetailPf from '../../assets/proyectos/DreamsFactory-img/img12.png'
 import AccordeonPf from '../../assets/proyectos/DreamsFactory-img/img13.png'
 
 // Imagenes de portafolio echo con tailwindCSS
-import HeaderImg from '../../assets/proyectos/Portafolio-img/img1.png'
-import AboutImg from '../../assets/proyectos/Portafolio-img/img2.png'
-import ExperiencesImg from '../../assets/proyectos/Portafolio-img/img3.png'
-import WorksImg from '../../assets/proyectos/Portafolio-img/img4.png'
-import ContactImg from '../../assets/proyectos/Portafolio-img/img5.png'
+// import HeaderImg from '../../assets/proyectos/Portafolio-img/img1.png'
+// import AboutImg from '../../assets/proyectos/Portafolio-img/img2.png'
+// import ExperiencesImg from '../../assets/proyectos/Portafolio-img/img3.png'
+// import WorksImg from '../../assets/proyectos/Portafolio-img/img4.png'
+// import ContactImg from '../../assets/proyectos/Portafolio-img/img5.png'
 
 // Imagenes de proyecto Courses-App
 import LandingCourses from '../../assets/proyectos/CoursesApp-img/img1.png'
@@ -76,7 +76,7 @@ const imagenesIndVid = [LandingVideogames, HomeVideogames, HomeVideogames2, Home
 
 const imagenesPf = [LandingPf, HomePf1, HomePf2, HomePf3, FavoritesPf, LoginPf, CartPf, FiltersPf, AboutPf, TerminosPf, PoliticasPf, DetailPf, AccordeonPf]
 
-const imagenesPortafolio = [HeaderImg, AboutImg, ExperiencesImg, WorksImg, ContactImg]
+// const imagenesPortafolio = [HeaderImg, AboutImg, ExperiencesImg, WorksImg, ContactImg]
 
 const imagenesNextJS = [HomeNext, HomeNext2, AboutNext, ServicesNext]
 
@@ -88,14 +88,14 @@ const Portfolio = () => {
   const [openModal1, setOpenModal1] = useState(false)
   const [openModal2, setOpenModal2] = useState(false)
   const [openModal3, setOpenModal3] = useState(false)
-  const [openModal4, setOpenModal4] = useState(false)
+  // const [openModal4, setOpenModal4] = useState(false)
   const [openModal5, setOpenModal5] = useState(false)
   const [openModal6, setOpenModal6] = useState(false)
   const [openModal7, setOpenModal7] = useState(false)
   const [openModalPiPok, setOpenModalPiPok] = useState(false)
   const [openModalPiVid, setOpenModalPiVid] = useState(false)
   const [openModalPG, setOpenModalPG] = useState(false)
-  const [openModalPortfolio, setOpenModalPortfolio] = useState(false)
+  // const [openModalPortfolio, setOpenModalPortfolio] = useState(false)
   const [openModalCourses, setOpenModalCourses] = useState(false)
   const [openModalNext, setOpenModalNext] = useState(false)
   const [openModalClinica, setOpenModalClinica] = useState(false)
@@ -180,7 +180,7 @@ const Portfolio = () => {
                 </p>
             </Modal>
 
-          <article className='portfolio__items'>
+          {/* <article className='portfolio__items'>
           <div className="portfolio__items-image">
             <img src={imagenesPortafolio[0]} alt="" onClick={() => setOpenModalPortfolio(true)}/>
           </div>
@@ -203,7 +203,7 @@ const Portfolio = () => {
                   Proyecto realizado para contar con un portafolio en el lenguaje inglés, realizado con HTML, TailwindCSS, Javascript, React, NodeJS. <br/>
                   <a href="https://portafolio-ingles.vercel.app/" target="_blank" rel="noreferrer">https://portafolio-ingles.vercel.app/</a>
                 </p>
-            </Modal>
+            </Modal> */}
 
           <article className='portfolio__items'>
           <div className="portfolio__items-image">

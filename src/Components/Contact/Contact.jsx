@@ -31,14 +31,14 @@ const Contact = () => {
           <article className="contact__option">
             <SiGmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5 className='text-light'>juanicamuss15@gmail.com</h5>
+            <h5 className='text-light'>programmingstudio2024@gmail.com</h5>
             <a href="mailto:juanicamuss15@gmail.com" target="_blank" rel='noreferrer'>Enviar Mensaje</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Facebook</h4>
-            <h5 className='text-light'>Juani Camus</h5>
-            <a href="https://www.facebook.com/juani.camus" target="_blank" rel='noreferrer'>Enviar Mensaje</a>
+            <h5 className='text-light'>Programming Studio</h5>
+            <a href="https://www.facebook.com/programming.studio.2023" target="_blank" rel='noreferrer'>Enviar Mensaje</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
