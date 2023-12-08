@@ -92,4 +92,9 @@ header{
         display: none;
     }
 
+    .me {
+        height: 400px;
+        overflow: hidden;
+    }
+
 }
